@@ -1,0 +1,12 @@
+.form {
+    background-color: aqua;
+    width: 15%;
+    border: 15px solid green;
+    display: table-cell;
+    padding: 50px;vertical-align: middle;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
