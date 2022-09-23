@@ -1,12 +1,26 @@
 .form {
-    background-color: aqua;
-    width: 15%;
-    border: 15px solid green;
+   /* background-color: #FFFFFF;*/
+   background-color: blue;
+    width: 400px;
+    height: 400px;
     display: table-cell;
-    padding: 50px;vertical-align: middle;
+    padding: 50px;
+    vertical-align: middle;
+    float: left;
 }
+/*Centers on screen*/
 body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.box-1 {
+    width: 150px;
+    height: 400px;
+    float: left;
+    background-color: #E6343B;
+    display: table-cell;
+    padding: 50px;
+    vertical-align: middle;
+
 }
