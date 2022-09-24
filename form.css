@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Open+Sans&display=swap');
 .form {
-   /* background-color: #FFFFFF;*/
-   background-color: blue;
-    width: 400px;
+    background-color: #FFFFFF;
+    width: 384px;
     height: 400px;
     display: table-cell;
     padding: 50px;
     vertical-align: middle;
     float: left;
+    border-left: 200px solid #E6343B;
+    box-shadow: rgba(185, 65, 65, 0.48) 6px 2px 16px 0px, rgba(212, 185, 185, 0.8) -6px -2px 16px 0px;
+    font-family: open Sans;
+    font-size: small;
+    font-weight: bold;
+    
 }
 /*Centers on screen*/
 body {
@@ -14,13 +20,46 @@ body {
     align-items: center;
     justify-content: center;
 }
-.box-1 {
-    width: 150px;
-    height: 400px;
-    float: left;
+.red-text {
+    margin-left: -230px;
+    margin-top: -20px;
+    color: #FFFFFF;
+}
+.wh {
+    margin-top: -45px;
+    margin-left: -25px;
+}
+.label1 {
+    margin-left: -20px;
+    
+}
+.label2 {
+    margin-left: 172px;
+}
+.label3{
+    margin-left: 123px;
+}
+.input1 {
+    width: 190px;
+    height: 40px;
+    margin-left: -20px;
+    border: solid 1px #E6343B;
+}
+.input2 {
+    width: 190px;
+    height: 40px;
+    margin-left: 20px;
+    border: solid 1px #E6343B;
+}
+.input3 {
+    margin-left: -20px;
+    border: solid 1px #E6343B;
+}
+.submit {
+    margin-left: -20px;
+    width: 405px;
+    height: 40px;
     background-color: #E6343B;
-    display: table-cell;
-    padding: 50px;
-    vertical-align: middle;
-
+    color: #FFFFFF;
+    border: solid 1px #E6343B;
 }

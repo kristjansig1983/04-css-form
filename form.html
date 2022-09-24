@@ -7,20 +7,37 @@
     <link rel="stylesheet" href="form.css" />
   </head>
   <body>
-    <div class="box-1">
-      <h2>Contact NTV</h2>
-    </div>
-    <div class="form"><h2>Email Us</h2>
-        <form>
-            <label for="Name">
-                Name
-            </label>
+    <div class="form">
+      <h2 class="red-text">Contact NTV</h2>
+      <h2 class="wh">Email Us</h2>
+      <form>
+       <div>
+        <label for="name" class="label1">Name</label>
+        <label for="company" class="label2">Company</label>
+        </div>
+        <div>
+          <input type="text" class="input1">
+          <input type="text" class="input2">
+        </div>
+        <br>
+        <div>
+          <label for="email" class="label1">Email Address</label>
+          <label for="phone" class="label3">Phone Number</label>
+          </div>
+          <div>
+            <input type="text" class="input1">
+            <input type="text" class="input2">
+          </div><br>
+          <div>
+            <label for="message" class="label1">Message</label>
             <br>
-            <input type="text" id="name">
-            <div><label for="company"> Company</label></div>
-            <br>
-            <input type="text" id="company">
-        </form>
+            <textarea cols="52" rows="10" class="input3"></textarea>
+          </div>
+          <br>
+          <div>
+            <input type="submit" value="Submit" class="submit">
+          </div>
+      </form>
     </div>
   </body>
 </html>
