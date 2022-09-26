@@ -44,16 +44,19 @@ body {
     height: 40px;
     margin-left: -20px;
     border: solid 1px #E6343B;
+    font-size: 15px;
 }
 .input2 {
     width: 190px;
     height: 40px;
     margin-left: 20px;
     border: solid 1px #E6343B;
+    font-size: 15px;
 }
 .input3 {
     margin-left: -20px;
     border: solid 1px #E6343B;
+    font-size: 15px;
 }
 .submit {
     margin-left: -20px;
@@ -62,4 +65,5 @@ body {
     background-color: #E6343B;
     color: #FFFFFF;
     border: solid 1px #E6343B;
+    font-size: 15px;
 }
